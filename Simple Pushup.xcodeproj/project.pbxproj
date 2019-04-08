@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21E90C7874ED0A3497FAC390 /* Pods_Simple_PushupUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1196C9E8A063073F6FF201 /* Pods_Simple_PushupUITests.framework */; };
+		4274C600BC04C685A23AD58D /* Pods_Simple_Pushup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B5D5C9A37CFB5BDC258074 /* Pods_Simple_Pushup.framework */; };
+		982FB0562256D7D500456520 /* ChooseFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982FB0552256D7D500456520 /* ChooseFormViewController.swift */; };
+		982FB0582256E50B00456520 /* ChooseAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982FB0572256E50B00456520 /* ChooseAmountViewController.swift */; };
+		982FB05A2256E8A300456520 /* CountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982FB0592256E8A300456520 /* CountdownViewController.swift */; };
+		982FB05E225741FC00456520 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982FB05D225741FC00456520 /* PopupViewController.swift */; };
 		98B458FB22557AEA00F65105 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B458FA22557AEA00F65105 /* AppDelegate.swift */; };
 		98B458FD22557AEA00F65105 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B458FC22557AEA00F65105 /* ViewController.swift */; };
 		98B4590022557AEA00F65105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B458FE22557AEA00F65105 /* Main.storyboard */; };
@@ -15,6 +21,8 @@
 		98B4590822557AEB00F65105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B4590622557AEB00F65105 /* LaunchScreen.storyboard */; };
 		98B4591322557AEB00F65105 /* Simple_PushupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B4591222557AEB00F65105 /* Simple_PushupTests.swift */; };
 		98B4591E22557AEB00F65105 /* Simple_PushupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B4591D22557AEB00F65105 /* Simple_PushupUITests.swift */; };
+		98B4592C22557EB800F65105 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 98B4592B22557EB800F65105 /* Fonts */; };
+		B2513EE444033BD7EC41E6F8 /* Pods_Simple_PushupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E13E15D07023916D046B9F /* Pods_Simple_PushupTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13B5D5C9A37CFB5BDC258074 /* Pods_Simple_Pushup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_Pushup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A3A33BF738963D28969E65 /* Pods-Simple Pushup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Pushup.debug.xcconfig"; path = "Target Support Files/Pods-Simple Pushup/Pods-Simple Pushup.debug.xcconfig"; sourceTree = "<group>"; };
+		673EF3A46BC267B27C4C3964 /* Pods-Simple PushupUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple PushupUITests.debug.xcconfig"; path = "Target Support Files/Pods-Simple PushupUITests/Pods-Simple PushupUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		890B607C0766510EEEA51FFA /* Pods-Simple PushupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple PushupTests.debug.xcconfig"; path = "Target Support Files/Pods-Simple PushupTests/Pods-Simple PushupTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90AACC97B6FFB6138736E2D1 /* Pods-Simple PushupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple PushupTests.release.xcconfig"; path = "Target Support Files/Pods-Simple PushupTests/Pods-Simple PushupTests.release.xcconfig"; sourceTree = "<group>"; };
+		982FB0552256D7D500456520 /* ChooseFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFormViewController.swift; sourceTree = "<group>"; };
+		982FB0572256E50B00456520 /* ChooseAmountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAmountViewController.swift; sourceTree = "<group>"; };
+		982FB0592256E8A300456520 /* CountdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownViewController.swift; sourceTree = "<group>"; };
+		982FB05D225741FC00456520 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
 		98B458F722557AEA00F65105 /* Simple Pushup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Pushup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B458FA22557AEA00F65105 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98B458FC22557AEA00F65105 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +66,11 @@
 		98B4591922557AEB00F65105 /* Simple PushupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple PushupUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B4591D22557AEB00F65105 /* Simple_PushupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_PushupUITests.swift; sourceTree = "<group>"; };
 		98B4591F22557AEB00F65105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98B4592B22557EB800F65105 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = SOURCE_ROOT; };
+		A34300D55AB29CFD3A240A78 /* Pods-Simple Pushup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Pushup.release.xcconfig"; path = "Target Support Files/Pods-Simple Pushup/Pods-Simple Pushup.release.xcconfig"; sourceTree = "<group>"; };
+		CC1196C9E8A063073F6FF201 /* Pods_Simple_PushupUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_PushupUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB89041E137CFB41DD834485 /* Pods-Simple PushupUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple PushupUITests.release.xcconfig"; path = "Target Support Files/Pods-Simple PushupUITests/Pods-Simple PushupUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F4E13E15D07023916D046B9F /* Pods_Simple_PushupTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_PushupTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4274C600BC04C685A23AD58D /* Pods_Simple_Pushup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2513EE444033BD7EC41E6F8 /* Pods_Simple_PushupTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21E90C7874ED0A3497FAC390 /* Pods_Simple_PushupUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		222C9953385B15A2179F253F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13B5D5C9A37CFB5BDC258074 /* Pods_Simple_Pushup.framework */,
+				F4E13E15D07023916D046B9F /* Pods_Simple_PushupTests.framework */,
+				CC1196C9E8A063073F6FF201 /* Pods_Simple_PushupUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E95091D1D9CC3AB7B3E11FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47A3A33BF738963D28969E65 /* Pods-Simple Pushup.debug.xcconfig */,
+				A34300D55AB29CFD3A240A78 /* Pods-Simple Pushup.release.xcconfig */,
+				890B607C0766510EEEA51FFA /* Pods-Simple PushupTests.debug.xcconfig */,
+				90AACC97B6FFB6138736E2D1 /* Pods-Simple PushupTests.release.xcconfig */,
+				673EF3A46BC267B27C4C3964 /* Pods-Simple PushupUITests.debug.xcconfig */,
+				EB89041E137CFB41DD834485 /* Pods-Simple PushupUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		98B458EE22557AEA00F65105 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +131,8 @@
 				98B4591122557AEB00F65105 /* Simple PushupTests */,
 				98B4591C22557AEB00F65105 /* Simple PushupUITests */,
 				98B458F822557AEA00F65105 /* Products */,
+				6E95091D1D9CC3AB7B3E11FC /* Pods */,
+				222C9953385B15A2179F253F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +151,16 @@
 			children = (
 				98B458FA22557AEA00F65105 /* AppDelegate.swift */,
 				98B458FC22557AEA00F65105 /* ViewController.swift */,
+				982FB0552256D7D500456520 /* ChooseFormViewController.swift */,
+				982FB0572256E50B00456520 /* ChooseAmountViewController.swift */,
+				982FB0592256E8A300456520 /* CountdownViewController.swift */,
+				982FB05D225741FC00456520 /* PopupViewController.swift */,
 				98B458FE22557AEA00F65105 /* Main.storyboard */,
 				98B4590422557AEB00F65105 /* Assets.xcassets */,
 				98B4590622557AEB00F65105 /* LaunchScreen.storyboard */,
 				98B4590922557AEB00F65105 /* Info.plist */,
 				98B4590122557AEA00F65105 /* Simple_Pushup.xcdatamodeld */,
+				98B4592B22557EB800F65105 /* Fonts */,
 			);
 			path = "Simple Pushup";
 			sourceTree = "<group>";
@@ -135,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98B4592222557AEB00F65105 /* Build configuration list for PBXNativeTarget "Simple Pushup" */;
 			buildPhases = (
+				2BCF29A4FCC945BC54DA18A6 /* [CP] Check Pods Manifest.lock */,
 				98B458F322557AEA00F65105 /* Sources */,
 				98B458F422557AEA00F65105 /* Frameworks */,
 				98B458F522557AEA00F65105 /* Resources */,
+				CD6FBB830561E21FC737C634 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98B4592522557AEB00F65105 /* Build configuration list for PBXNativeTarget "Simple PushupTests" */;
 			buildPhases = (
+				C89CADCDF8D5655F2328AC66 /* [CP] Check Pods Manifest.lock */,
 				98B4590A22557AEB00F65105 /* Sources */,
 				98B4590B22557AEB00F65105 /* Frameworks */,
 				98B4590C22557AEB00F65105 /* Resources */,
@@ -170,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98B4592822557AEB00F65105 /* Build configuration list for PBXNativeTarget "Simple PushupUITests" */;
 			buildPhases = (
+				8DB5CA7F98339EE1356DC010 /* [CP] Check Pods Manifest.lock */,
 				98B4591522557AEB00F65105 /* Sources */,
 				98B4591622557AEB00F65105 /* Frameworks */,
 				98B4591722557AEB00F65105 /* Resources */,
@@ -235,6 +294,7 @@
 				98B4590822557AEB00F65105 /* LaunchScreen.storyboard in Resources */,
 				98B4590522557AEB00F65105 /* Assets.xcassets in Resources */,
 				98B4590022557AEA00F65105 /* Main.storyboard in Resources */,
+				98B4592C22557EB800F65105 /* Fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +314,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BCF29A4FCC945BC54DA18A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Simple Pushup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DB5CA7F98339EE1356DC010 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Simple PushupUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C89CADCDF8D5655F2328AC66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Simple PushupTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD6FBB830561E21FC737C634 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Simple Pushup/Pods-Simple Pushup-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Simple Pushup/Pods-Simple Pushup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		98B458F322557AEA00F65105 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982FB05A2256E8A300456520 /* CountdownViewController.swift in Sources */,
 				98B458FD22557AEA00F65105 /* ViewController.swift in Sources */,
+				982FB0562256D7D500456520 /* ChooseFormViewController.swift in Sources */,
+				982FB0582256E50B00456520 /* ChooseAmountViewController.swift in Sources */,
 				98B458FB22557AEA00F65105 /* AppDelegate.swift in Sources */,
 				98B4590322557AEA00F65105 /* Simple_Pushup.xcdatamodeld in Sources */,
+				982FB05E225741FC00456520 /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,10 +591,11 @@
 		};
 		98B4592322557AEB00F65105 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A3A33BF738963D28969E65 /* Pods-Simple Pushup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7B227ZD53A;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Simple Pushup/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,10 +610,11 @@
 		};
 		98B4592422557AEB00F65105 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A34300D55AB29CFD3A240A78 /* Pods-Simple Pushup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7B227ZD53A;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Simple Pushup/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -470,6 +629,7 @@
 		};
 		98B4592622557AEB00F65105 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 890B607C0766510EEEA51FFA /* Pods-Simple PushupTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +651,7 @@
 		};
 		98B4592722557AEB00F65105 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90AACC97B6FFB6138736E2D1 /* Pods-Simple PushupTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +673,7 @@
 		};
 		98B4592922557AEB00F65105 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 673EF3A46BC267B27C4C3964 /* Pods-Simple PushupUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +694,7 @@
 		};
 		98B4592A22557AEB00F65105 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB89041E137CFB41DD834485 /* Pods-Simple PushupUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
