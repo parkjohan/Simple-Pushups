@@ -1,0 +1,6 @@
+framework module Pods_Simple_Pushup {
+  umbrella header "Pods-Simple Pushup-umbrella.h"
+
+  export *
+  module * { export * }
+}

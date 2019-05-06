@@ -8,7 +8,6 @@
 
 import Foundation
 import UIKit
-import PopupDialog
 
 class ChooseFormViewController: UIViewController {
     
@@ -17,31 +16,46 @@ class ChooseFormViewController: UIViewController {
     @IBOutlet var widePushupButton: UIButton!
     @IBOutlet var declinePushupButton: UIButton!
     
+    var videoURL = FormVideo()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        normalPushupButton.layer.borderWidth = 1
+        normalPushupButton.layer.borderWidth = 0.5
         normalPushupButton.layer.cornerRadius = 10
-        diamondPushupButton.layer.borderWidth = 1
+        
+        diamondPushupButton.layer.borderWidth = 0.5
         diamondPushupButton.layer.cornerRadius = 10
-        widePushupButton.layer.borderWidth = 1
+        
+        widePushupButton.layer.borderWidth = 0.5
         widePushupButton.layer.cornerRadius = 10
-        declinePushupButton.layer.borderWidth = 1
+        
+        declinePushupButton.layer.borderWidth = 0.5
         declinePushupButton.layer.cornerRadius = 10
         
 
     }
     
-    @IBAction func normalPushupPressed(_ sender: Any) {
-        performSegue(withIdentifier: "ChooseFormSegue", sender: self)
-    }
-    @IBAction func diamondPushupPressed(_ sender: Any) {
-        performSegue(withIdentifier: "ChooseFormSegue", sender: self)
-    }
-    @IBAction func widePushupPressed(_ sender: Any) {
-        performSegue(withIdentifier: "ChooseFormSegue", sender: self)
-    }
-    @IBAction func declinePushupPressed(_ sender: Any) {
-        performSegue(withIdentifier: "ChooseFormSegue", sender: self)
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "NormalPushupSegue" {
+            let normalVC = segue.destination as? PopupViewController
+            normalVC?.formType = "Normal Pushup"
+            normalVC?.videoType = videoURL.normalVideo
+        }
+        if segue.identifier == "DiamondPushupSegue" {
+            let diamondVC = segue.destination as? PopupViewController
+            diamondVC?.formType = "Diamond Pushup"
+            diamondVC?.videoType = videoURL.diamondVideo
+        }
+        if segue.identifier == "WidePushupSegue" {
+            let wideVC = segue.destination as? PopupViewController
+            wideVC?.formType = "Wide Pushup"
+            wideVC?.videoType = videoURL.wideVideo
+        }
+        if segue.identifier == "DeclinePushupSegue" {
+            let declineVC = segue.destination as? PopupViewController
+            declineVC?.formType = "Decline Pushup"
+            declineVC?.videoType = videoURL.declineVideo
+        }
     }
 }

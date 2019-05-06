@@ -13,6 +13,7 @@
 		982FB0582256E50B00456520 /* ChooseAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982FB0572256E50B00456520 /* ChooseAmountViewController.swift */; };
 		982FB05A2256E8A300456520 /* CountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982FB0592256E8A300456520 /* CountdownViewController.swift */; };
 		982FB05E225741FC00456520 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982FB05D225741FC00456520 /* PopupViewController.swift */; };
+		987DC91A225BC387003830A0 /* FormVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987DC919225BC387003830A0 /* FormVideo.swift */; };
 		98B458FB22557AEA00F65105 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B458FA22557AEA00F65105 /* AppDelegate.swift */; };
 		98B458FD22557AEA00F65105 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B458FC22557AEA00F65105 /* ViewController.swift */; };
 		98B4590022557AEA00F65105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B458FE22557AEA00F65105 /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		982FB0572256E50B00456520 /* ChooseAmountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAmountViewController.swift; sourceTree = "<group>"; };
 		982FB0592256E8A300456520 /* CountdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownViewController.swift; sourceTree = "<group>"; };
 		982FB05D225741FC00456520 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		987DC919225BC387003830A0 /* FormVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormVideo.swift; sourceTree = "<group>"; };
 		98B458F722557AEA00F65105 /* Simple Pushup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Pushup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B458FA22557AEA00F65105 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98B458FC22557AEA00F65105 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				982FB0572256E50B00456520 /* ChooseAmountViewController.swift */,
 				982FB0592256E8A300456520 /* CountdownViewController.swift */,
 				982FB05D225741FC00456520 /* PopupViewController.swift */,
+				987DC919225BC387003830A0 /* FormVideo.swift */,
 				98B458FE22557AEA00F65105 /* Main.storyboard */,
 				98B4590422557AEB00F65105 /* Assets.xcassets */,
 				98B4590622557AEB00F65105 /* LaunchScreen.storyboard */,
@@ -255,13 +258,16 @@
 				TargetAttributes = {
 					98B458F622557AEA00F65105 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					98B4590D22557AEB00F65105 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 98B458F622557AEA00F65105;
 					};
 					98B4591822557AEB00F65105 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 98B458F622557AEA00F65105;
 					};
 				};
@@ -392,6 +398,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-Simple Pushup/Pods-Simple Pushup-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
 				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/YoutubePlayer-in-WKWebView/YoutubePlayer_in_WKWebView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -399,6 +406,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YoutubePlayer_in_WKWebView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -417,6 +425,7 @@
 				982FB0562256D7D500456520 /* ChooseFormViewController.swift in Sources */,
 				982FB0582256E50B00456520 /* ChooseAmountViewController.swift in Sources */,
 				98B458FB22557AEA00F65105 /* AppDelegate.swift in Sources */,
+				987DC91A225BC387003830A0 /* FormVideo.swift in Sources */,
 				98B4590322557AEA00F65105 /* Simple_Pushup.xcdatamodeld in Sources */,
 				982FB05E225741FC00456520 /* PopupViewController.swift in Sources */,
 			);
@@ -595,7 +604,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 7B227ZD53A;
 				INFOPLIST_FILE = "Simple Pushup/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -603,7 +612,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.parkjohan.johanpark.Simple-Pushup";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -614,7 +623,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 7B227ZD53A;
 				INFOPLIST_FILE = "Simple Pushup/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -622,7 +631,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.parkjohan.johanpark.Simple-Pushup";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -643,7 +652,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.parkjohan.johanpark.Simple-PushupTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Pushup.app/Simple Pushup";
 			};
@@ -665,7 +674,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.parkjohan.johanpark.Simple-PushupTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Pushup.app/Simple Pushup";
 			};
@@ -686,7 +695,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.parkjohan.johanpark.Simple-PushupUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Simple Pushup";
 			};
@@ -707,7 +716,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.parkjohan.johanpark.Simple-PushupUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Simple Pushup";
 			};
