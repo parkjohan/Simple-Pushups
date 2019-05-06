@@ -58,4 +58,7 @@ class ChooseFormViewController: UIViewController {
             declineVC?.videoType = videoURL.declineVideo
         }
     }
+    
+    @IBAction func cancel (_ unwindSegue: UIStoryboardSegue) {
+    }
 }
